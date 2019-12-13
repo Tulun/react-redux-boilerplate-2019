@@ -2,7 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as reduxActions from "../../actions/index";
-console.log(reduxActions);
 
 const About = ({ counter, actions }) => {
   return (
